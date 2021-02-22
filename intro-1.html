@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+<meta name="format-detection" content="telephone=no">
+<title>전생에 당신을 구해준 약은? </title>
+<style>
+
+body{
+  background-color: lightskyblue;
+  opacity: 0;
+  transition: 1s opacity;
+}
+body.fadeIn {
+    opacity: 1;
+}
+/* 첫 화면 스무스하게: 페이드인 */
+.buttons{
+  text-align: center;
+  width:52px;
+  height: 21px;
+  font-size: 10px;
+  border: 2px solid gainsboro;
+  margin:auto;
+  display:block;
+}
+
+/* #mainbutton{
+  text-align: center;
+  width:40px;
+  height: 15px;
+  font-size: 10px;
+  border: 2px solid gainsboro;
+  margin:auto;
+  display:block;
+}
+
+#resultbutton{
+  text-align: center;
+  width:40px;
+  height: 15px;
+  font-size: 10px;
+  border: 2px solid gainsboro;
+  margin:auto;
+  display:block;
+} */
+
+.first{
+  text-align: center;
+  margin-top: 300px;
+  font-size: 18px;
+  font-weight: 400;
+  color: grey;
+}
+
+#resultbutton{
+  display: none;
+}
+a{text-decoration:none !important;
+   }
+   a:link{color:black;}
+   a:visited{color:black;}
+   a:active{color:plum;}
+
+</style>
+</head>
+<body>
+
+
+<div class="first">
+    어느 먼 옛날,
+</div>
+
+<br>
+<div class = "buttons">
+<button id="mainbutton">NEXT</button>
+<button id="resultbutton"><a href="1.html">NEXT</a></button>
+
+</div>
+
+<script>
+window.onload = function() {
+    document.body.className += ' fadeIn';
+}
+
+var text = document.querySelector('.first');
+var p = -1;
+var writing = ["의술을 공부하던 당신은 <br> 의인이 되기 위해 여정을 떠나게 되는데...", "저는 최나영입니다", "과연 잘 작동할까요?"];
+var backcolor = ["red", "skyblue", "white"];
+
+mainbutton.onclick =  function(){
+  p++;
+  if(p >= writing.length-1){
+  document.getElementById('resultbutton').style.display = 'block';
+  document.getElementById('mainbutton').style.display = 'none';
+};
+  var text = document.querySelector('.first');
+  text.innerHTML = writing[p];
+  document.body.style.backgroundColor = backcolor[p];
+  document.body.style.transition = 'all 2s';
+}
+
+
+
+
+</script>
+
+
+</body>
+</html>
