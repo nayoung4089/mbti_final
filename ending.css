@@ -46,9 +46,21 @@
     text-align:left;
     font-size: 88%;
     color:rgb(66, 66, 66);
-   margin-bottom:20px;
+
   }
 .sharing{
   text-align:center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
+.ad{
+  width: 100vw;
+  max-width: 400px;
+  display: inline-block;
+}
+ .copyright{
+   font-size: 14px;
+   color:#C8BCAC;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }      
+
