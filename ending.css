@@ -5,7 +5,7 @@
   background-position-x: center;
   /* height: 130vh; */
   width: 100vw;
-  max-width: 360px;
+  max-width: 500px;
   background-size:100%;
 } 
 
@@ -14,14 +14,17 @@
       margin-top: 60px;
       width: 300px;
       height: 300px;
+      margin-bottom:20px;
   }
 
   .texts,.med, .subtexts{
+    display: inline-block;
     width: 320px;
     padding: 20px 20px;
   }
 
   .finaltitle{
+    display: inline-block;
     width: 320px;
     padding: 20px 20px;
     font-size: 130%;
