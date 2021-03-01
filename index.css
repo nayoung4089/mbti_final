@@ -64,6 +64,8 @@ body{
   
 footer{
   text-align:center;
+}
+.ad{
   width: 100vw;
   max-width: 400px;
 }
