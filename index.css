@@ -68,9 +68,9 @@ footer{
 .ad{
   width: 100vw;
   max-width: 400px;
+  display: inline-block;
 }
  .copyright{
-   display:inline-block;
    font-size: 14px;
    color:#C8BCAC;
    margin-top: 30px;
