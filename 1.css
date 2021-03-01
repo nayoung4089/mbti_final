@@ -1,194 +1,98 @@
 body{
     background-repeat: no-repeat;
-    /* padding: 30px; */
-    font-family: 'Song Myung', serif;
-    /* background-repeat: no-repeat; */
-    /* background-image: url("예비배경111.png"); */
-    background-color: #d3e2e2;
+    font-family: 'Noto Serif KR', serif;
+    background-color: #6B6660;
     max-height: 1080px;
     line-height: 1.4;
     margin: 0;
     padding: 0;
   }
-  #top{
-    display: inline-block;
-    /* display: flex;
-    justify-content: space-between; */
+  .realeveryting{
+    text-align: center;
 
   }
-  
-  header{
-    /* text-align: center; */
-    /* float:left; */
-    /* margin: 0; */
-    /* display: flex;
-    justify-content: space-between; */
-  }
-  
   .everything{
-    background-image: url("위꽃꽃.png");
-    background-repeat: no-repeat;
-    background-size: 800px auto;
+    display: inline-block;
+    background-image: url("예비배경22.jpg");
+    background-size:contain;
     background-position-x: center;
-  }
-
-  
-
-  .questiongage{
+    background-repeat: no-repeat;
+    max-width: 500px;
     width: 100vw;
-    height: 10px;
-    background-color: white;
-
-    /* border: 2px solid silver; */
-    /* border-radius: 15px; */
-    margin-top: 30px;
-  
+    min-height: 110vh;
   }
-  
-  .gage{
-    width: 100/12vw;
-    height: 10px;
-    background-color: silver;
-    /* border-radius: 15px; */
-  
+  .total{
+    position: relative;
+    top: 50%;
+    display: inline-block;
+    width: 100vw;
+    font-size: 15px;
+    max-width:400px;
   }
   .line{
     text-align: center;
-    display: inline-block;
-  
+    display: inline-block; 
   }
-  
-  /* .line{
-    text-align: center;
-    display: inline-block;
-    width: 200px;
-    height: 5px;
-    background-color: silver;
-  } */
 
-  .total{
-  margin-top: 50px;
-  }
-  /* .maintitle{
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-  } */
-  
   #question {
      padding: 10px 2em;
-     /* background: grey; */
-     /* border-radius: 15px; */
-     font-size: 16px;
-     color: black;
+     font-size: 100%;
+     color: #C8BCAC;
   }
-  
   #quiz {
+     margin-top: 100px;
      text-align: center;
-     max-width: 500px;
+     max-width: 400px;
      margin-right: auto;
      margin-bottom: 0px;
      margin-left: auto;
-     /* 이렇게 하니까 중간에 딱 모임 */
      min-height: 100%;
   }
-  
-  /* #progress {
-     font-size: 15px;
-     color: grey;
-  } */
-  
-  .buttons {
-     padding: 20px 20px;
-     /* border: 2px solid lightskyblue;
-     border-radius: 20px; */
-     /* margin-top: 30px; */
+  #progress {
+     font-size: 90%;
+     color: #C8BCAC;
   }
-  
+  .buttons {
+     padding: 10px 20px;
+     margin-bottom: 50px;
+  }
   .btn {
      margin: 5px 20px 20px 0;
      padding: 10px;
      width: 100%;
      display: flex;
-     font-size: 18px;
-     color: rgb(31, 31, 31);
+     font-size: 100%;
+     font-weight: 400;
+     color: #C8BCAC;
      background: none;
-     border: 4px solid silver;
-     /* border: none; */
-     /* border-radius: 15px; */
+     border: 3px solid #ECDAB3;
      cursor: pointer;
      transition: all .2s;
      display: inline-block;
-     font-family: 'Song Myung', serif;
-  }
+     font-family: 'Noto Serif KR', serif;
+    }
   
   .btn:nth-child(2n) {
      margin-right: 0;
   }
   
   .btn:hover {
-     background: silver;
+     background: #ECDAB3;
      color: white;
   }
   
   .advertise{
   width: 100%;
   height: 100px;
-  background-color: silver;
-  margin-top: 50px;
+  position: relative;
+  background-color: #ECDAB3;
   }
-  
-  footer{
-    display: flex;
-    justify-content: space-between;
-    margin-top: -100px;
-  }
-  
   .forpic{
     width: 10px;
     height: 10px;
     background-color: none;
   }
 
- 
-  /* 엔딩글을 위한 css */
-  body{
-    opacity: 0;
-    transition: 1s opacity;
-  }
-  body.fadeIn {
-      opacity: 1;
-  }
-  
-  #mainbutton{
-    text-align: center;
-    width:50px;
-    height: 30px;
-    font-size: 13px;
-    border: 4px solid gainsboro;
-    margin:auto;
-    display:block;
-  }
-  
-  .first{
-    text-align: center;
-    margin-top: 300px;
-    font-size: 16px;
-    font-weight: 400;
-    color: grey;
-  }
-  
-  #resultbutton{
+  .sharing{
     display: none;
-    text-align: center;
-    width:50px;
-    height: 30px;
-    font-size: 13px;
-    border: 4px solid gainsboro;
-    margin:auto;
   }
-  .final{
-    display:none;
-    /* position: absolute; left: 50%; top: 50%; 
-    transform: translate(-50%, -50%); text-align: center; */
-  }  

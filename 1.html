@@ -6,58 +6,53 @@
 <title>연습용</title>
 <meta charset="utf-8">
 <link href="1.css" rel="stylesheet">
+<link href="loading.css" rel="stylesheet">
+<link href="ending.css" rel="stylesheet">
+
 <script src="script.js" defer></script>
 <script src="result.js" defer></script>
-<script src="outtro.js" defer></script>
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-
+<script>
+  window.onload = function() {
+    document.body.className += ' fadeIn';
+}
+</script>
+<div class="realeveryting">
 <div class="everything">
-<header>
-
-<br><br>
-<div class="questiongage" id="top">
-  <div class="gage">
-  </div>
-</div>
-</header>
-
 <div class = "total">
 <div id="quiz">
   <div class="line"><img src ="line.png" width="40%"></div>
   <p id="question"> 문제 1) 나른한 오후, 당신은 어떤 일을 하실 건가요?</p>
   <div class="line"><img src ="line.png" width="40%"></div>
 
+  <p id="progress">문제 1/12</p>
+
   <div class="buttons">
     <button class="btn" value: "E" >밖에 나가서 논다</button>
     <button class="btn" value: "I" >집이 최고지!</button>
-
-    <div class = "advertise" id="quiz"></div>
-
   </div>
 </div>
 </div>
 </div>
-<!-- <footer>
-  <p id="progress">문제 1/12</p>
-</footer> -->
-
+</div>
+<div class="realfinal">
 <div class="final">
 <div class="first">
-  나의 님을 만나러 가기 위해 길을 나선 당신.
-  <br>뜨거운 햇볕 탓인가, 자꾸만 머리가 어지러워진다.
+  그렇게 약방을 지나가던 중,
+  <br>한 의인이 내게 약재를 손에 쥐어주었다
 </div>
-
 <br>
-<button id="mainbutton">다음</button>
-<button id="resultbutton">결과</a></button>
-
+<div class="load">
+  <h2 data-text="Loading">Loading</h2>
 </div>
-<script>
-  
-</script>
+<br>
+</div>
+</div>
+<div class="sharing">
+ </div>
 </body>
 </html>

@@ -1,36 +1,31 @@
 body{
-background-color: #d3e2e2;
-font-family: 'Song Myung', serif;
+background-color: #6B6660;
+font-family: 'Noto Serif KR', serif;
+margin: 0;
+padding: 0;
 }
 
+.all{
+  text-align: center;
+}
 .maintext{
-  position: absolute;
-  left: 50%;
-  margin-left:-175px;
-  width: 350px;
-  height: 650px;
-  background-image: url("주변배경1.png");
-  background-size: cover;
+  background-image: url("예비배경11.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
+  background-position-y: center;
+  display: inline-block;
+  max-width: 400px;
+  width: 100vw;
+  /* 아오 얘 때문에 계속 그림 사이즈가 변했네.. */
+  /* min-height: 130vh; */
+  height: 100vh;
 }
 .text{
 position: absolute; left: 50%; top: 50%; 
 transform: translate(-50%, -50%); text-align: center;
 margin: 0 auto;
-/* background-image: url("주변배경1.png"); */
-/* background-position: center;
-background-size: cover; */
 }
-
-.maintext{
-  /* 이하 필수 설정 */
-  /* position: absolute; left: 50%; top: 50%; 
-  transform: translate(-50%, -50%); text-align: center; */
-  /* 이하 꾸밈 설정 */
-  /* background: white; */
-  }
-
 
   .main-title{
     text-align: center;
@@ -40,12 +35,12 @@ background-size: cover; */
   .line{
     width: auto;
     height: 3px;
-    background-color: rgb(179, 177, 177);
+    background-color: #C8BCAC;
   }
 
   .name{
     font-size: 10px;
-    color: grey;
+    color: rgb(204, 204, 204);
 
     font-weight: 400;
     text-align: center;
@@ -53,21 +48,22 @@ background-size: cover; */
   }
   .main-subtitle{
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
-    color: grey;
+    color: rgb(204, 204, 204);
     margin-top: 30px;
   }
   .mainbutton{
     text-align: center;
     background-color: white;
     font-size: 18px;
-    border: 4px solid gainsboro;
+    background-color:#C8BCAC;
+    border: 2px solid #ECDAB3;
     margin:auto;
     display:block;
   }
   .mainbutton:hover{
-    background: silver;
+    background: #C8BCAC;
     color:white;
   }
   

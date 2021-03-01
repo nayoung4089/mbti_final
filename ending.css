@@ -1,0 +1,47 @@
+ /* 결과지 */
+ .final{
+  display: inline-block;
+  font-size: 16px; 
+  background-position-x: center;
+  /* height: 130vh; */
+  width: 100vw;
+  max-width: 360px;
+  background-size:100%;
+} 
+
+  #finalimg{
+      display: inline-block;
+      margin-top: 60px;
+      width: 300px;
+      height: 300px;
+  }
+
+  .texts,.med, .subtexts{
+    width: 320px;
+    padding: 20px 20px;
+  }
+
+  .finaltitle{
+    width: 320px;
+    padding: 20px 20px;
+    font-size: 130%;
+    font-weight: bold;
+    color:rgb(66, 66, 66);
+  }
+  .texts{
+    font-size: 88%;
+    line-height: 1.5;
+    color:rgb(66, 66, 66);
+    font-weight: 400;
+  }
+  .med{
+    font-size: 100%;
+    font-weight: bold;
+    color:rgb(66, 66, 66);
+  }
+  .subtexts{
+    text-align:left;
+    font-size: 88%;
+    color:rgb(66, 66, 66);
+
+  }
