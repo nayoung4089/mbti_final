@@ -1,1 +1,74 @@
-body{background-color:#6b6660;font-family:'Noto Serif KR',serif;margin:0;padding:0}.all{text-align:center}.maintext{background-image:url(예비배경11.jpg);background-size:contain;background-repeat:no-repeat;background-position-x:center;background-position-y:center;display:inline-block;max-width:400px;width:100vw;height:100vh}.text{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;margin:0 auto}.main-title{text-align:center;font-size:20px;font-weight:700}.line{width:auto;height:3px;background-color:#c8bcac}.name{font-size:10px;color:#ccc;font-weight:400;text-align:center;margin-top:5px}.main-subtitle{text-align:center;font-size:13px;font-weight:400;color:#ccc}.mainbutton{text-align:center;background-color:#fff;font-size:18px;background-color:#c8bcac;border:2px solid #ecdab3;margin:auto;display:block}.mainbutton:hover{background:#c8bcac;color:#fff}a{text-decoration:none!important}a:link{color:#000}a:visited{color:#000}a:active{color:plum}
+body{
+  background-color: #6B6660;
+  font-family: 'Noto Serif KR', serif;
+  margin: 0;
+  padding: 0;
+  }.all{
+    text-align: center;
+  }.maintext{
+    background-image: url("예비배경11.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    display: inline-block;
+    max-width: 400px;
+    width: 100vw;
+    height: 100vh;
+  }.text{
+  position: absolute; left: 50%; top: 50%; 
+  transform: translate(-50%, -50%); text-align: center;
+  margin: 0 auto;
+  }  .main-title{
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .line{
+      width: auto;
+      height: 3px;
+      background-color: #C8BCAC;
+    }
+    .name{
+      font-size: 10px;
+      color: rgb(204, 204, 204);
+      font-weight: 400;
+      text-align: center;
+      margin-top: 5px;
+    }
+    .main-subtitle{
+      text-align: center;
+      font-size: 13px;
+      font-weight: 400;
+      color: rgb(204, 204, 204);
+    }
+    .mainbutton{
+      text-align: center;
+      background-color: white;
+      font-size: 18px;
+      background-color:#C8BCAC;
+      border: 2px solid #ECDAB3;
+      margin:auto;
+      display:block;
+    }
+    .mainbutton:hover{
+      background: #C8BCAC;
+      color:white;
+    }
+    
+    a{text-decoration:none !important;
+       }
+       a:link{color:black;}
+       a:visited{color:black;}
+       a:active{color:plum;}
+  
+footer{
+  text-align:center;
+}
+ .copyright{
+   display:inline-block;
+   font-size: 14px;
+   color:#C8BCAC;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }      
