@@ -8,7 +8,12 @@
 <link href="1.css" rel="stylesheet">
 <link href="loading.css" rel="stylesheet">
 <link href="ending.css" rel="stylesheet">
-
+<script> function progress(){
+  var progress = document.getElementById('progress');
+  progress.innerHTML = '문제'+'&nbsp;'+(quiz.questionIndex+1)+'/'+quiz.questions.length;
+};
+</script> 
+var btn= document.querySelectorAll('.btn');
 <script src="script.js" defer></script>
 <script src="result.js" defer></script>
 
