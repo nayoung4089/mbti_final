@@ -135,6 +135,7 @@ function result(){
       subtexts="- 속을 북돋우고 기를 고르게 한다.<br>- 영양성분이 풍부하다.<br>- LDL 콜레스테롤을 줄여주는 역할을 하여 동맥경화에 좋다.";
       type = "ISTJ";
     }
+    var txt ='<div id="finalimg"></div>'+'<div class="finaltitle"> '+finaltitle+'</div>' + '<div class = "texts">' +texts+ '</div>'+'<div class = "med">' +med+ '</div>'+ '<div class = "subtexts">' +subtexts+ '</div>'+ '<div class = "link"></div>';
     quizDiv.innerHTML = txt;
     document.querySelector('.final').style.background= "url('결과지전체.png')";
     document.getElementById("finalimg").style.background = "url("+imgnum+")";
