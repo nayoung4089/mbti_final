@@ -17,8 +17,6 @@ padding: 0;
   display: inline-block;
   max-width: 400px;
   width: 100vw;
-  /* 아오 얘 때문에 계속 그림 사이즈가 변했네.. */
-  /* min-height: 130vh; */
   height: 100vh;
 }
 .text{
@@ -41,7 +39,6 @@ margin: 0 auto;
   .name{
     font-size: 10px;
     color: rgb(204, 204, 204);
-
     font-weight: 400;
     text-align: center;
     margin-top: 5px;
@@ -51,7 +48,6 @@ margin: 0 auto;
     font-size: 13px;
     font-weight: 400;
     color: rgb(204, 204, 204);
-    margin-top: 30px;
   }
   .mainbutton{
     text-align: center;
