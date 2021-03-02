@@ -36,6 +36,12 @@ body{
       text-align: center;
       margin-top: 5px;
     }
+    .name-2{
+      font-size: 15px;
+      color: rgb(204, 204, 204);
+      font-weight: 400;
+      text-align: center;
+    }
     .main-subtitle{
       text-align: center;
       font-size: 13px;
