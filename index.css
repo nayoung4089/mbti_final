@@ -69,6 +69,7 @@ footer{
   width: 100vw;
   max-width: 400px;
   display: inline-block;
+  margin-top: 50px;
 }
  .copyright{
    font-size: 14px;
