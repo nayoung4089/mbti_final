@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: https://www.k-medicine-test.com/sitemap.xml
